@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="369.585" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="Plum Goodness Website Features" name="Highlight and Print Logo Properties" time="17.846">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+When I highlight the logo...................................................passed
+And I print logo CSS properties.............................................passed
+Then I should see the header content........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Plum Goodness Website Features" name="User Login with valid username and password from Excel - Example #1.1" time="33.598">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+When I navigate to the login page...........................................passed
+When I enter test username and password from Excel..........................passed
+And I click the test login button...........................................passed
+Then I should be logged into test...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Plum Goodness Website Features" name="User Login with invalid username and password" time="56.913">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+When I navigate to the login page...........................................passed
+When I enter invalid username and password..................................passed
+Then It show login fail message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Plum Goodness Website Features" name="Navigate to Skincare Collection &amp; Plum Bodylovin &amp; Makeup Collection" time="50.388">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+Then I navigate to the skincare collection..................................passed
+Then I navigate to the Plum Bodylovin page..................................passed
+When I should see the makeup collection page................................passed
+Then I should see the dropdown options......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Plum Goodness Website Features" name="Search for a product information" time="18.565">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+When I search for the product "palm"........................................passed
+And I click on the product..................................................passed
+Then I am scrolling down....................................................passed
+Then I am scrolling up......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Plum Goodness Website Features" name="Add a Product to Cart and payment" time="101.216">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+When I search for the product "palm"........................................passed
+And I click on the product..................................................passed
+And I add the product to the cart using JavaScript..........................passed
+And I click on the cart button..............................................passed
+And I click on "View cart"..................................................passed
+Then I should be in the shopping cart page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Plum Goodness Website Features" name="check customer care functionalities" time="47.194">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+When I scroll bottom........................................................passed
+And I click on the contact us...............................................passed
+And I click on the Mail Button..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Plum Goodness Website Features" name="User logout" time="43.506">
+<system-out><![CDATA[
+Given I am on the Plum Goodness website.....................................passed
+When I navigate to the login page...........................................passed
+When I enter test username and password from Excel..........................passed
+And I click the test login button...........................................passed
+Then I should be logged into test...........................................passed
+Then I am goto click the logout button......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
